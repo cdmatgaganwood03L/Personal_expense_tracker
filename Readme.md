@@ -42,7 +42,7 @@ Follow these steps to set up and run the Personal Expense Tracker locally:
 ### **Installation Steps**
 1. Clone the repository:  
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/cdmatgaganwood03L/cdmatgaganwood03L.git
    cd <project-directory>
 
 2. Install required dependencies:
