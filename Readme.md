@@ -37,7 +37,7 @@ Follow these steps to set up and run the Personal Expense Tracker locally:
 ### **Prerequisites**
 - Python 3.6 or above
 - MongoDB Atlas account or a local MongoDB instance
-- Pymongo library  
+- Downloading libraries
 
 ### **Installation Steps**
 1. Clone the repository:  
@@ -47,8 +47,10 @@ Follow these steps to set up and run the Personal Expense Tracker locally:
 
 2. Install required dependencies:
    pip install pymongo
+   pip install time
+   pip install bson
 
-3. Set up your MongoDB connection:
+4. Set up your MongoDB connection:
 - Update the MongoClient link in the Expense_Tracker class to match your MongoDB Atlas credentials.
 
 4. Run the application:
@@ -75,8 +77,5 @@ Contributions are also welcome!
   -git push origin feature/<feature-name>
 5. Open a pull request.
 
-
-📜 License
-This project is licensed under the MIT License. Feel free to use and modify it.
 
 
